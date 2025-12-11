@@ -39,7 +39,6 @@ h2 {
 .toggleContainer button.active {
     background-color: var(--color-primary);
     color: white;
-    font-weight: bold;
 }
 
 .toggleContainer button:not(.active) {

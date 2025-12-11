@@ -17,10 +17,6 @@
     text-align: center;
 }
 
-.metricCard p {
-    color: var(--color-text);
-}
-
 @media (max-width: 375px) {
     .metricCard {
         flex-wrap: wrap;
