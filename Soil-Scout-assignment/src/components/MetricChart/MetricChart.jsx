@@ -1,13 +1,12 @@
 import React from "react";
 import styles from "./MetricChart.module.css";
-// import mockData from "../../../data/data.json";
 import { Line } from "react-chartjs-2";
 import "../../lib/chartConfig";
 
 export const MetricChart = ({ labels, data, datasetLabel}) => {
     const rootStyles = getComputedStyle(document.documentElement);
-    const borderColor = rootStyles.getPropertyValue('--color-secondary');
-    const backgroundColor = rootStyles.getPropertyValue('--color-background');
+    const borderColor = rootStyles.getPropertyValue('--color-primary');
+    const backgroundColor = rootStyles.getPropertyValue('--color-secondary');
     const dataObject = {
     labels: labels,
     datasets: [

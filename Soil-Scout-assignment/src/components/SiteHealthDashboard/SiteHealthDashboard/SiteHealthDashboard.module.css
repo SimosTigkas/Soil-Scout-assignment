@@ -1,9 +1,29 @@
 @import "../../../vars.css";
 
+.dashboardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 50px;
+    background-color: var(--color-background);
+    z-index: -2;
+}
+
+h2 {
+    color: var(--color-text);
+    margin: 0px auto;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    font-weight: 500;
+    font-family: var(--font-primary, sans-serif);
+}
+
 .toggleContainer{
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    justify-content: center;
+    z-index: 1;
 }
 
 .toggleContainer button {
@@ -11,22 +31,30 @@
     border-radius: 0.5rem;
     border: none;
     cursor: pointer;
+    flex: 1;
+    min-width: 100px;
+    max-width: 300px;
 }
 
 .toggleContainer button.active {
     background-color: var(--color-primary);
     color: white;
+    font-weight: bold;
 }
 
 .toggleContainer button:not(.active) {
     background-color: #e0e0e0;
     color: #333;
 }
-.dashboardContainer {
-    padding: 50px;
-}
+
 
 .active {
   background-color: var(--color-primary);
   color: white;
+}
+
+@media (max-width: 375px) {
+    .toggleContainer {
+        justify-content: center;
+    }
 }

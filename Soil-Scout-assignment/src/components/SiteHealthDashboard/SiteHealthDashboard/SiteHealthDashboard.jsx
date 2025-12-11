@@ -14,7 +14,7 @@ export const SiteHealthDashboard = () => {
 
     return (
         <div className={styles.dashboardContainer} id="site-health-dashboard">
-            <h1>Site Health Dashboard</h1>
+            <h2>Site Health Dashboard</h2>
             < MetricChart labels={labels} data={metricValues} datasetLabel={selectedMetric} />
             < MetricCard  currentValue={currentValue} min={minValue} max={maxValue}/>
             <div className={styles.toggleContainer}>
