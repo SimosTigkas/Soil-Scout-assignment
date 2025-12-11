@@ -1,10 +1,9 @@
-:root {/*colors*/
---color-text: #fff;
-/* --color-primary: */
-/* --color-secondary:  */
-
-/*fonts*/
---font-primary: 'Roboto', sans-serif;
---font-secondary: 'Open Sans', sans-serif;
+:root {
+--color-text: #1F2937;
+--color-primary: #3B82F6;
+--color-secondary: #10B981;
+--color-background: rgba(16, 185, 129, 0.2);
+--font-primary: 'Inter', sans-serif;
+--font-secondary: 'Lato', sans-serif;
 
 }

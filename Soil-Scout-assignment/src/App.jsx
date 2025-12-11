@@ -1,15 +1,11 @@
-import { useState } from 'react'
 import styles from "./App.module.css";
-/*import components here*/
+import { SiteHealthDashboard } from "./components/SiteHealthDashboard/SiteHealthDashboard/SiteHealthDashboard";
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
-    <>
-      
-    </>
-  )
+    <div className={styles.App}>
+      <SiteHealthDashboard/>
+    </div>);
 }
 
 export default App

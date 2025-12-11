@@ -1,0 +1,32 @@
+@import "../../../vars.css";
+
+.toggleContainer{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.toggleContainer button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.toggleContainer button.active {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.toggleContainer button:not(.active) {
+    background-color: #e0e0e0;
+    color: #333;
+}
+.dashboardContainer {
+    padding: 50px;
+}
+
+.active {
+  background-color: var(--color-primary);
+  color: white;
+}
