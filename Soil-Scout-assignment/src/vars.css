@@ -1,10 +1,9 @@
 :root {
---color-text: #222c3c;
---color-primary: #5582ca;
---color-secondary: #10B981;
---color-background: linear-gradient(135deg, #f3f4f6, #e0f2fe);
-
+--chart-background: #0c885f59;
+--color-text: #000000;
+--color-primary: hsl(123, 38%, 71%);
+--color-secondary: hsl(178, 41%, 33%);
+--color-background: #ade1e5;
 --font-primary: 'Inter', sans-serif;
 --font-secondary: 'Lato', sans-serif;
-
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./SiteHealthDashboard.module.css";
-import mockData from "../../../data/data.json";
-import { MetricChart } from "../../MetricChart/MetricChart";
-import { MetricCard } from "../../MetricCard/MetricCard";
+import mockData from "../../data/data.json";
+import { MetricChart } from "../MetricChart/MetricChart";
+import { MetricCard } from "../MetricCard/MetricCard";
 
 export const SiteHealthDashboard = () => {
     let [selectedMetric, setSelectedMetric] = React.useState("soilMoisture");

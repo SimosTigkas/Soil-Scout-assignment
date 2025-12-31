@@ -13,6 +13,7 @@ export const MetricChart = ({ labels, data, datasetLabel}) => {
         {
         label: datasetLabel,
         data: data,
+        tension: 0.4,
         borderColor: borderColor,
         backgroundColor: backgroundColor,
         }

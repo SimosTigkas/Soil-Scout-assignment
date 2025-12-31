@@ -4,6 +4,8 @@ import {
   LinearScale,
   PointElement,
   LineElement,
+  Title,
+  Tooltip,
   Legend
 } from "chart.js";
 
@@ -12,5 +14,7 @@ ChartJS.register(
   LinearScale,
   PointElement,
   LineElement,
+  Title,
+  Tooltip,
   Legend
 );
