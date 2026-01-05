@@ -3,18 +3,16 @@
 .dashboardContainer {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    padding: 50px;
+    gap: 1rem;
+    padding: 40px;
     background-color: var(--color-background);
-    z-index: -2;
     height: 100vh;
 }
 
 h2 {
     color: var(--color-text);
-    margin: 0px auto;
     text-align: center;
-    margin: 0 auto 10px auto;
+    margin: 110px auto 0px auto;
     font-weight: 500;
     font-family: var(--font-primary, sans-serif);
 }
@@ -24,7 +22,6 @@ h2 {
     gap: 1rem;
     margin-bottom: 1rem;
     justify-content: center;
-    z-index: 1;
 }
 
 .toggleContainer button {
@@ -34,7 +31,7 @@ h2 {
     cursor: pointer;
     flex: 1;
     min-width: 100px;
-    max-width: 300px;
+    max-width: 240px;
 }
 
 .toggleContainer button.active {
@@ -55,7 +52,10 @@ h2 {
 }
 
 @media (max-width: 375px) {
-    .toggleContainer {
-        justify-content: center;
+    h2 {
+        font-size: 18px;
+    }
+    .dashboardContainer {
+        padding: 20px;
     }
 }
