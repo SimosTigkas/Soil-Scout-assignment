@@ -1,26 +1,26 @@
 [
     {
         "id": 1,
-        "Soil Moisture": "22",
+        "Soil Moisture": "72",
         "Temperature": "25",
         "day": "Monday"
     },
     {
         "id": 2,
         "Soil Moisture": "18",
-        "Temperature": "27",
+        "Temperature": "17",
         "day": "Tuesday"
     },
     {
         "id": 3,
         "Soil Moisture": "35",
-        "Temperature": "23",
+        "Temperature": "43",
         "day": "Wednesday"
     },
     {
         "id": 4,
-        "Soil Moisture": "10",
-        "Temperature": "12",
+        "Soil Moisture": "15",
+        "Temperature": "8",
         "day": "Thursday"
     },
     {
@@ -37,7 +37,7 @@
     },
     {
         "id": 7,
-        "Soil Moisture": "11",
+        "Soil Moisture": "61",
         "Temperature": "28",
         "day": "Sunday"
     }
